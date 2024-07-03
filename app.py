@@ -22,7 +22,7 @@ def math_operator():
         result=int(number1)/int(number2)
     else:
         result=int(number1)-int(number2)
-    return result
+    return (f"the operation is{operation} andu the result is {result}")
         
 if __name__ == '__main__':
     app.run()
